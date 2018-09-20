@@ -16,6 +16,13 @@ preview](https://raw.githubusercontent.com/ristomatti/flowdock-solarized-dark/ma
 
 ## Changelog
 
+#### Version 0.5
+* Dark inbox footer background
+* Solarized magenta primary button
+
+#### Version 0.4
+* Fix stuff broken with Flowdock UI update
+
 #### Version 0.3
 * Dark background for preformatted message content
 * Custom colors for flow tabs
