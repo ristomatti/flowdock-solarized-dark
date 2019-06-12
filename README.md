@@ -16,6 +16,9 @@ preview](https://raw.githubusercontent.com/ristomatti/flowdock-solarized-dark/ma
 
 ## Changelog
 
+#### Version 0.6
+* Toolbar search
+
 #### Version 0.5
 * Dark inbox footer background
 * Solarized magenta primary button
