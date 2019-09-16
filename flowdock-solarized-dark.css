@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://www.flowdock.com") {
 /**
-* Flowdock Solarized Dark Grey v0.7 (2019-09-16)
+* Flowdock Solarized Dark Grey v0.8 (2019-09-16)
 *
 * https://userstyles.org/styles/125297/flowdock-solarized-dark-grey
 * https://github.com/ristomatti/flowdock-solarized-dark
@@ -321,6 +321,8 @@ li .input-button {
 .chat-message .msg-body code {
   font-family: Menlo, Consolas, "Liberation Mono", Courier, monospace;
   filter: brightness(130%);
+  background-color: #141414 !important;
+  border: none !important;
 }
 
 /* Code block truncate toggle */

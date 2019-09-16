@@ -16,6 +16,9 @@ preview](https://raw.githubusercontent.com/ristomatti/flowdock-solarized-dark/ma
 
 ## Changelog
 
+#### Version 0.8
+* Fix inline code regression
+
 #### Version 0.7
 * Improve code block appearance
 
