@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://www.flowdock.com") {
 /**
-* Flowdock Solarized Dark Grey v0.6 (2019-06-12)
+* Flowdock Solarized Dark Grey v0.7 (2019-09-16)
 *
 * https://userstyles.org/styles/125297/flowdock-solarized-dark-grey
 * https://github.com/ristomatti/flowdock-solarized-dark
@@ -312,11 +312,36 @@ li .input-button {
 	background: #1b1b1b;
 }
 
-/* preformatted messages (code) */
-.chat-message .msg-body code,
+/* Code blocks */
 .chat-message pre.formatted {
-	background-color: #212121 !important;
+	background-color: #191919 !important;
 	border: 1px solid #3a3a3a !important;
+}
+
+.chat-message .msg-body code {
+  font-family: Menlo, Consolas, "Liberation Mono", Courier, monospace;
+  filter: brightness(130%);
+}
+
+/* Code block truncate toggle */
+.truncate-toggle {
+  border-top: none !important;
+}
+
+.truncate-toggle:hover {
+  background: #191919 !important;
+  border-left: 1px solid #3a3a3a !important;
+  border-right: 1px solid #3a3a3a !important;
+  border-bottom: 1px solid #3a3a3a !important;
+}
+
+.truncate-toggle:before {
+  box-shadow: none !important;
+  border-top: none !important;
+}
+
+.chat-message a.truncate-toggle {
+  color: #93a1a1 !important;
 }
 
 /* Chat mentions */

@@ -16,6 +16,9 @@ preview](https://raw.githubusercontent.com/ristomatti/flowdock-solarized-dark/ma
 
 ## Changelog
 
+#### Version 0.7
+* Improve code block appearance
+
 #### Version 0.6
 * Toolbar search
 
